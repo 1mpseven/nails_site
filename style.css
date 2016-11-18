@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+#ttitle {
+	position: relative;
+	font-size: 48px;
+	font-family: Marck Script;
+	text-align: center;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	//background-color: black;
+	color: white;
+	background-image: url('tbg.jpg');
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    //background-clip: content-box;
+    background-origin: content-box;
+    background-size: 100%;
+}
+
+#tmenu {
+	position: relative;
+	//background-color: grey;
+	font-size: 27px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	text-align: center;
+	font-family: Marck Script;
+	background-image: url('mbg.jpg');
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    //background-clip: content-box;
+    background-origin: content-box;
+    background-size: 100% 100%;
+}
+
+#tmenu a {
+	color: black;
+	-moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+    -webkit-user-select: none;
+    //text-decoration: overline;
+    transition: .5s;
+    margin-left: 15px;
+}
+
+#tmenu a:hover {
+	color: white;
+
+}
+
+.v {
+	text-decoration: underline;
+}
+
+.x {
+	text-decoration: overline;
+}
+@font-face {
+    font-family: 'Marck Script';
+    src: local('Marck Script'), local('MarckScript-Regular'), url('marckscript.woff2') format('woff2'), url('marckscript.woff') format('woff'), url('marckscript.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
