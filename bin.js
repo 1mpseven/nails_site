@@ -20,6 +20,10 @@ function getXmlHttp(){
 
 
 function olink(gfile){
+    change_class(activeclass, 'x')
+    if (gfile=='main.html') activeclass='m1';
+    if (gfile=='about.html') activeclass='m2'
+    change_class(activeclass, 'v')
 
     console.log(gfile + ' accept')
     var xmlhttp = getXmlHttp()
